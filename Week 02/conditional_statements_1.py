@@ -26,4 +26,6 @@ if 10 < 5:
 elif 0 < 5:
     print("True, block will be executed")
 elif 0 < 3:
-    print("true")
+    print("True, but this will not be executed")
+else:
+    print("If all fails, execute this")
