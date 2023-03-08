@@ -15,7 +15,7 @@ sports = ["\nRugby", "Cricket", "Tennis", "Afl"]
 
 for sport in sports:
     print(sport)
-print(sports[1])
+print(sports[2])
 
 word = input("Enter a word: ")
 for letter in word:
@@ -29,3 +29,7 @@ for letter in word:
         print("The letter n was found in your word")
     if letter == "i":
         print("The letter i was found in your word")
+    if letter == letter.upper():
+        print("An upper case letter was detected")
+
+# For each character in the word it will check each of the if statements because of the for function.
